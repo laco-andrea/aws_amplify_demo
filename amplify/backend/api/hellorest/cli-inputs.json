@@ -1,17 +1,11 @@
 {
   "version": 1,
   "paths": {
-    "/hello/{name}": {
-      "name": "/hello/{name}",
+    "/hello": {
+      "name": "/hello",
       "lambdaFunction": "hello",
       "permissions": {
-        "setting": "private",
-        "auth": [
-          "create",
-          "read",
-          "update",
-          "delete"
-        ]
+        "setting": "open"
       }
     }
   }
