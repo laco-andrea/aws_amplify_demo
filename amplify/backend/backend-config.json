@@ -1,1 +1,43 @@
-{}
+{
+  "api": {
+    "helloworld": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "amplifydemohelloworld"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "function": {
+    "amplifydemohelloworld": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_amplifydemohelloworld_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifydemohelloworld"
+        }
+      ]
+    },
+    "AMPLIFY_function_amplifydemohelloworld_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "amplifydemohelloworld"
+        }
+      ]
+    }
+  }
+}
