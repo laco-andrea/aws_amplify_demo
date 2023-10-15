@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { ContactForm } from '../amplify/backend/function/amplifydemohelloworld/src/ui-components';
+import { ContactForm } from './ui-components';
 
 function App() {
   return (
