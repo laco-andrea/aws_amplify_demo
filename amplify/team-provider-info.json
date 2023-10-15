@@ -17,9 +17,6 @@
           "deploymentBucketName": "amplify-amplify15dfa7538ddf4-staging-211523-deployment",
           "s3Key": "amplify-builds/amplifydemohelloworld-796a6b6a516e7a6d4977-build.zip"
         }
-      },
-      "api": {
-        "helloworld": {}
       }
     }
   }
